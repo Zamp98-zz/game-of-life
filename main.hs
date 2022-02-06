@@ -115,3 +115,8 @@ main = do
    putStr "\nentrada 5:\n"
    imprimeTabela tabela5 linhas5 colunas5 linhas5
    startLife n5 tabela5 linhas5 colunas5 
+
+   (n6, linhas6, colunas6, tabela6) <- lerArquivo "entrada6.txt"
+   putStr "\nentrada 6:\n"
+   imprimeTabela tabela6 linhas6 colunas6 linhas6
+   startLife n6 tabela6 linhas6 colunas6 
